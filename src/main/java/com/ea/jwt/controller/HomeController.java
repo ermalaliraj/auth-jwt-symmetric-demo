@@ -13,7 +13,7 @@ public class HomeController {
         return "Hello JWT!";
     }
 
-    @GetMapping("/details")
+    @GetMapping("/api/details")
     public String details(Principal principal) {
         return "principal: " + principal + " \nprincipal.getName(): " + principal.getName();
     }
