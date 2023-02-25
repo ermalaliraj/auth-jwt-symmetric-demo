@@ -11,10 +11,9 @@ The same HS256 key will be used for JWT creation and verification.
 
 (3) Call the API
 ```
-GET http://localhost:8080/
-Authorization:Bearer <jwt-token>
+GET http://localhost:8031/
 
-GET http://localhost:8080/details
+GET http://localhost:8031/api/details
 Authorization:Bearer <jwt-token>
 ```
 You should see as response "Hello JWT!" and the Principal's data respectively in the response body.

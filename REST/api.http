@@ -1,14 +1,10 @@
 ### Call API with no Token
-GET http://localhost:8080/
+GET http://localhost:8031/
 
 ### 1. Generate JWT token using JwtTokenGenerator.test_printToken()
 
-### 2. Call API with Generated Token in step 1
-GET http://localhost:8080/
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJpZCIsImlhdCI6MTY2OTE1NTIyMSwic3ViIjoiSldUIGlzc3VlZCBieSBTZXJ2ZXIgdG8gdGVzdCBTeW1tZXRyaWMga2V5LiBJdCB3aWxsIGJlIHZlcmlmaWVkIHdpdGggdGhlIHNhbWUga2V5IiwiaXNzIjoic2VydmVyIn0.ZEBDAUWoTQR10yhXs8Yiy6y4XMI6iBisnWn7tFp3Mac
-
-### 3. See Prinicla0s details
-GET http://localhost:8080/details
+### 2. See Principal details
+GET http://localhost:8031/api/details
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJpZCIsImlhdCI6MTY2OTE1NTIyMSwic3ViIjoiSldUIGlzc3VlZCBieSBTZXJ2ZXIgdG8gdGVzdCBTeW1tZXRyaWMga2V5LiBJdCB3aWxsIGJlIHZlcmlmaWVkIHdpdGggdGhlIHNhbWUga2V5IiwiaXNzIjoic2VydmVyIn0.ZEBDAUWoTQR10yhXs8Yiy6y4XMI6iBisnWn7tFp3Mac
 
 ###
